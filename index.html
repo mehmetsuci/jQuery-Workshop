@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jq_func.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <style>
+        div {
+            width: 100%;
+            height: 30px;
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            border: 2px solid black;
+            
+        }
+
+        #second {
+  padding: 50px;
+  display: none;
+}
+
+#square{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#drag{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+    </style>
+
+
+
+</head>
+<body>
+    <h2> Merhaba</h2>
+    <p>This is a Jquery test</p>
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+
+
+    <div id="first"> Başlık</div>
+    <div id="second" style=" height: 200px;">açılır pencere</div>
+
+    <div id="square">        box1    </div>
+
+    <div id="drag">Drag</div>
+
+    <div id="accordion">
+        <div>Heading 1</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur veritatis dolores rem atque dolor commodi itaque fugiat delectus reiciendis. Cupiditate quasi, dolore commodi expedita nam recusandae at eligendi ipsa veritatis.</div>
+        <div>Heading 2</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        <div>Heading 3</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, totam quo.</div>
+    </div>
+</body>
+</html>
